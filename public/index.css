@@ -1,0 +1,15 @@
+body, html {
+  height: 100%;
+}
+
+#bg {
+  background-image: url("https://perfumesociety.org/wp-content/uploads/2016/05/PERFUME_IMAGES_3.extended-1-1024x343.jpg");
+
+  height: 100%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+      

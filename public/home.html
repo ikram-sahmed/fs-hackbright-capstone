@@ -5,27 +5,57 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fragrance Archive</title>
-    <link href="styles.css" rel="stylesheet">
+    <link href="index.css" rel="stylesheet">
 </head>
 <body>
-
-    <header> <center><h1>Fragrance Archive</h1>
-
-
+    <header> 
+    <center><h1>Fragrance Archive</h1> <center>
+    
     <nav>
 		
-	        <a href="./spring.html">Spring</a></li>
-           <a href="./summer.html">Summer</a></li>
-           <a href="./fall.html">Fall</a></li>    
+	       <a href="./spring.html">Spring</a>
+           <a href="./summer.html">Summer</a>
+           <a href="./fall.html">Fall</a>
 	        
 	</nav>
+
 
     <div id="bg">
         <img src="https://perfumesociety.org/wp-content/uploads/2016/05/PERFUME_IMAGES_3.extended-1-1024x343.jpg">
     </div>
 
+   
+    
+   
+   
+    <form action="spring.html" method="post">
+        <div class="imgcontainer">
+          
+      
+        <div class="container">
+          <label for="uname"><b>Username</b></label>
+          <input type="text" placeholder="Enter Username" name="uname" required>
+      
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+      
+          <button type="submit">Login</button>
+           
+      
 
+    <script src = "/public/home.js"></script> 
+        
 
 
 </body>
 </html>
+
+
+<header> <center><p>feeling spontaneous? click below to pick a random scent<p>
+    <div id="randomScent"></div>
+    <button id="scentButton">Generate scent</button>
+  <script src = "https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src = "home.js"></script> </center>
+      
+    </header>
+  

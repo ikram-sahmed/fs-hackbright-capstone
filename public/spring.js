@@ -1,14 +1,3 @@
-//function springScents (evt) {
-	//evt.preventDefault();
-	
-	//alert('Damascus Rose, Peony, White Musk');
-//}
-/*
-const button = document.querySelector('#dior');
-button.addEventListener('click', () => {
-  alert('Damascus Rose, Peony, White Musk');
-});
-*/
 
 function diorScent(){
     alert('Damascus Rose, Peony, White Musk')}
@@ -20,7 +9,7 @@ replicaScent.addEventListener("click", replicaScent);
 
 
 function joMaloneScent(){
-    alert('Lemon, Scarlet Velvet Rose, Honfunctioneycomb')}
+    alert('Lemon, Scarlet Velvet Rose, Honeycomb')}
 joMaloneScent.addEventListener("click", joMaloneScent);
 
 

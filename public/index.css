@@ -2,18 +2,24 @@ body, html {
   height: 100%;
 }
 
-#bg {
+body {
+  background-color: rgb(237, 227, 227)
+(83, 79, 74);
+
+}
  
-  background-color: pink;
+  img{
+    image-orientation: inherit;
+  }
+  
 
-  height: 100%;
+  a{
+    color: rgb(234, 145, 190);
+  }
+   header{
+    color: rgb(234, 145, 190);
+   }
 
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-a{
-  color: rgb(234, 145, 190);
-}
-      
+   div{
+    color: rgb(234, 145, 190);
+   }
